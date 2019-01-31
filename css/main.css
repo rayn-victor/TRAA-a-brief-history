@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+.hidden
+{
+	display: none;
+}
+
+#mainContainer
+{
+	margin: 0 auto;
+	width: 960px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+header
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	height: 230px;
+	width: 960px;
+	background-image: url('../images/lake-view.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+header h1
+{
+	padding-top: 80px;
+	font-family: 'lemonmilkregular', sans-serif;
+	font-size: 30px;
+	color: #fff;
+	transition: 0.3s;
+}
+
+header p
+{
+	padding: 10px;
+	font-family: 'mavenpro', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+}
+
+header span
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#section1
+{	
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	width: 960px;
+	height: 325px;
+	position: relative;
+}
+
+#section1 img
+{
+	filter: brightness(30%);
+}
+
+#section1 p
+{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	padding: 120px;
+	position: absolute;
+}
+
+#section2
+{	
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	width: 960px;
+	height: 325px;
+	position: relative;
+}
+
+#section2 img
+{
+	filter: brightness(30%);
+}
+
+#section2 p
+{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	padding: 100px;
+	position: absolute;
+}
+#section3
+{	
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	width: 960px;
+	height: 325px;
+	position: relative;
+}
+
+#section3 img
+{
+	filter: brightness(30%);
+}
+
+#section3 p
+{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	padding: 80px;
+	position: absolute;
+}
+
+#section4
+{	
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	width: 960px;
+	height: 325px;
+	position: relative;
+}
+
+#section4 img
+{
+	filter: brightness(30%);
+}
+
+#section4 span
+{
+	font-weight: bold;
+}
+
+#section4 p
+{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	padding: 140px;
+	position: absolute;
+}
+
+footer
+{
+	display: flex;
+	margin-top: 80px;
+	position: relative;
+	align-items: center;
+}
+
+footer h1
+{
+	margin-left: 200px;
+	position: absolute;
+	font-family: 'lemonmilkregular', sans-serif;
+	font-size: 28px;
+	color: #fff;
+	transition: 0.3s;
+}
+
+#mainContainer div:hover
+{
+	opacity: .9;
+}
+
+#mainContainer div
+{
+	transition: 0.5s;
+}
+
+header h1:hover, footer h1:hover
+{
+	text-shadow: 7px 7px black;
+}
